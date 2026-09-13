@@ -6,6 +6,7 @@ const seed = require('./seed');
 const errorHandler = require('./middleware/errorHandler');
 const roomRoutes = require('./routes/rooms');
 const bookingRoutes = require('./routes/bookings');
+const docsRoutes = require('./routes/docs');
 
 const app = express();
 
@@ -16,6 +17,7 @@ app.use(express.json());
 // Routes
 app.use('/api/rooms', roomRoutes);
 app.use('/api/bookings', bookingRoutes);
+app.use(docsRoutes);
 
 // Health check
 app.get('/api/health', (req, res) => {
