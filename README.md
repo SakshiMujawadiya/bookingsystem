@@ -5,9 +5,9 @@ A full-stack meeting room booking application built with Node.js/Express, Postgr
 ## Links
 
 - **GitHub Repository**: https://github.com/SakshiMujawadiya/bookingsystem
-- **Live Frontend**: https://bookingsystem-frontend.vercel.app
-- **Live Backend API**: https://bookingsystem-api.onrender.com
-- **API Docs**: https://bookingsystem-api.onrender.com/docs (or `http://localhost:8000/docs` locally)
+- **Live Frontend**: https://bookingsystem-phi.vercel.app/
+- **Live Backend API**: https://bookingsystem-6857.onrender.com/
+- **API Docs**: https://bookingsystem-6857.onrender.com/docs (or `http://localhost:8000/docs` locally)
 
 ## Tech Stack
 
